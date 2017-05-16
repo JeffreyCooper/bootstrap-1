@@ -43,54 +43,24 @@ Exercise for bootstrap
 	<div class="sfooter-content">
 		<header>
 			<nav class="navbar navbar-default">
-				<div class="container-fluid">
+				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Brand</a>
+						<a class="navbar-brand" href="#">BootStrap</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">Link</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
-						</ul>
-						<form class="navbar-form navbar-left">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
+					<div class="collapse navbar-collapse" id="main-menu">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-								</ul>
-							</li>
+							<li><a href="http://crooksandliars.com/latest" target="_blank">Crooks and Liars</a></li>
+							<li><a href="https://www.democraticunderground.com/" target="_blank">Democratic Underground</a></li>
+							<li><a href="http://talkingpointsmemo.com/" target="_blank">TPM</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -99,23 +69,86 @@ Exercise for bootstrap
 		<main>
 
 			<section>
-
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="jumbotron text-center">
+								<h1>Bootstrap Challenge</h1>
+								<p>It's ten thousand miles between Kings landing and the wall. A Lannister always pays his debts.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
-
+			<section class="bg-info">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="image-responsive image-container" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/140.jpg" alt="Kitteh">
+						</div>
+						<div class="col-md-9">
+							<p>You know nothing, Jon Snow. The bear and the maiden fair. Bastards are born of passion, aren't they? We don't despise them in Dorne. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters. Unbowed, Unbent, Unbroken. Unbowed, Unbent, Unbroken. Bastards are born of passion, aren't they? We don't despise them in Dorne. The night is dark and full of terrors. A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. More pigeon pie, please. More pigeon pie, please. The rains of castamere. It's ten thousand miles between Kings landing and the wall. When you play the game of thrones, you win or you die. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. All men must die. Winter is coming. It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section>
-
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 text-center">
+							<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+							<div class="panel panel-default text-left">
+								<div class="panel-body">
+									The night is dark and full of terrors. Bastards are born of passion, aren't they? We don't despise them in Dorne. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. The War of the 5 kings.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+							<div class="panel panel-default text-left">
+								<div class="panel-body">
+									The night is dark and full of terrors. Bastards are born of passion, aren't they? We don't despise them in Dorne. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. The War of the 5 kings.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+							<div class="panel panel-default text-left">
+								<div class="panel-body">
+									The night is dark and full of terrors. Bastards are born of passion, aren't they? We don't despise them in Dorne. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. The War of the 5 kings.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+							<div class="panel panel-default text-left">
+								<div class="panel-body">
+									The night is dark and full of terrors. Bastards are born of passion, aren't they? We don't despise them in Dorne. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. The War of the 5 kings.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
-
-			<section>
-
-			</section>
-
-
 			<!-- sfooter content -->
-	<footer>
+	<footer class="bg-info text-center">
 		<div class="container">
 			<div class="row">
-				<div class="md-xs-12">Footer Sample for Bootstrap</div>
+				<div class="col-md-4 col-md-offset-4">
+					Footer Sample for Bootstrap
+				</div>
 			</div>
 		</div>
 	</footer>

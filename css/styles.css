@@ -1,2 +1,24 @@
 /*css stylesheet for bootstrap-1 assignment
 */
+/*correct IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/*custom css*/
+section {
+	padding: 6rem 0;
+}
+
+footer {
+	padding: 2rem 0;
+}
